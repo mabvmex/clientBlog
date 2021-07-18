@@ -1,0 +1,54 @@
+@import '../../../scss/index.scss';
+
+.social-links {
+    display: flex;    
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+    a {
+        display: flex;
+        margin-right: 15px;
+        padding: 5px, 8px;
+        border-radius: 5px; 
+        font-size: 20px;
+        background-color: #fff;
+
+        &.youtube {
+            color: $youtube;
+            font-size: 18px;
+            padding: .1px 1px;
+            // background-color: $youtube;
+        }
+
+        &.twitter {
+            color: $twitter;
+            svg { margin: -2px; }
+            // background-color: $twitter;
+        }
+
+        &.facebook {
+            color: $facebook;
+            svg { margin: -2px; }
+            // background-color: $facebook;
+        }
+
+        &.linkedin {
+            color: $linkedin;
+            svg { margin: -2px; }
+            // background-color: $linkedin;
+        }
+
+        &.github {
+            background-color: $github;
+            color: white;
+            // svg { margin: -2px; }
+            // background-color: $linkedin;
+        }
+
+        // svg {
+        //     width: 25px;
+        //     height: 25px;
+        // }
+    }
+}
